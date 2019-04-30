@@ -4,7 +4,7 @@ Simple Pagenation for WordPress
 ## 使い方
 ページネーションを使いたいところに以下のタグを記入するだけ。
 
-```php:タグ
+```PHP:タグ
 <?php billies_pagenation(); ?>
 ```
  
