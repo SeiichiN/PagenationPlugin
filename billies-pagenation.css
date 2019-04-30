@@ -1,0 +1,25 @@
+/* billies-pagenation.css */
+
+.billies-pagenation .page-numbers {
+    list-style-type: none;
+    padding-left: 0;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.billies-pagenation li {
+	border: solid 1px #ddd;
+	padding: 0 10px;
+}
+.billies-pagenation a {
+	display: block;
+}
+
+.billies-pagenation .current {
+	display: block;
+	font-weight: bold;
+	font-size: 1.2em;
+}
